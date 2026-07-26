@@ -9,4 +9,4 @@ RUN ./mvnw clean package -DskipTests
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "target/datastore.jar"]
+CMD ["java", "-jar", "datastore.jar"]
