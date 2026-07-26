@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: your-app
+    runtime: java
+    buildCommand: ./mvnw clean install
+    startCommand: java -jar target/*.jar
