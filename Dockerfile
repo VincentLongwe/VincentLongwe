@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21-jdk
+FROM eclipse-temurin:26-jdk
 
 WORKDIR /app
 
@@ -9,4 +9,4 @@ RUN ./mvnw clean package -DskipTests
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "target/*.jar"]
+CMD ["java", "-jar", "target/datastore.jar"]
