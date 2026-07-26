@@ -155,6 +155,7 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<finalName>datastore</finalName>
 	</build>
 
 </project>
