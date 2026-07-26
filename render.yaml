@@ -1,6 +1,4 @@
 services:
   - type: web
-    name: datastore
-    runtime: java
-    buildCommand: ./mvnw clean install
-    startCommand: java -jar target/datastore.jar
+    name: vincentlongwe
+    runtime: docker
