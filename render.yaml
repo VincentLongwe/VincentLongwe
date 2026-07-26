@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your-app
+    name: datastore
     runtime: java
     buildCommand: ./mvnw clean install
-    startCommand: java -jar target/*.jar
+    startCommand: java -jar target/datastore.jar
